@@ -1,0 +1,174 @@
+1. CIA Triad (Core Principles of Cyber Security)
+
+The CIA Triad represents the three main goals of cyber security: Confidentiality, Integrity, and Availability.
+
+a) Confidentiality
+
+Confidentiality means protecting data from unauthorized access.
+
+Example:
+
+Bank account details
+
+Passwords and OTPs
+
+Personal chats on WhatsApp
+
+How it is protected:
+
+Strong passwords
+
+Encryption
+
+Two-factor authentication (2FA)
+
+If confidentiality fails, data leaks or privacy breaches occur.
+
+b) Integrity
+
+Integrity ensures that data remains accurate and unchanged unless modified by an authorized user.
+
+Example:
+
+Bank balance should not change without a valid transaction
+
+Exam marks should not be altered illegally
+
+How it is protected:
+
+Hashing
+
+Access control
+
+Digital signatures
+
+If integrity fails, data manipulation or fraud happens.
+
+c) Availability
+
+Availability ensures that systems and data are accessible when needed.
+
+Example:
+
+Banking app should work during transactions
+
+Email service should be accessible anytime
+
+Threats to availability:
+
+DDoS attacks
+
+Server failure
+
+Network outage
+
+ If availability fails, services become unavailable.
+
+2. Types of Cyber Attackers (Attack Types)
+1. Script Kiddies
+
+Beginners with little technical knowledge
+
+Use ready-made hacking tools
+
+Attack for fun or curiosity
+
+2. Insiders
+
+Employees or trusted users
+
+Abuse their authorized access
+
+Can cause serious damage
+
+3. Hacktivists
+
+Hack for political or social reasons
+
+Target government or corporate websites
+
+Aim to spread awareness or protest
+
+4. Nation-State Attackers
+
+Government-sponsored hackers
+
+Highly skilled and well-funded
+
+Target defense, banking, power grids
+
+3. Attack Surface
+
+An attack surface is the total number of entry points where an attacker can try to compromise a system.
+
+Common Attack Surfaces
+1. Web Applications
+
+Login forms
+
+Search boxes
+
+File uploads
+Attacks: SQL Injection, XSS
+
+2. Mobile Applications
+
+Insecure storage
+
+Weak authentication
+Attacks: Data theft, session hijacking
+
+3. APIs
+
+Exposed endpoints
+
+Poor authentication
+Attacks: API abuse, data leakage
+
+4. Network
+
+Wi-Fi
+
+Routers
+
+Firewalls
+Attacks: Man-in-the-Middle, sniffing
+
+5. Cloud Infrastructure
+
+Misconfigured storage
+
+Public access permissions
+Attacks: Data exposure, unauthorized access
+
+4. Real-World Example (Data Flow & Attack Points)
+
+User → Application → Server → Database
+
+Possible Attack Points:
+
+User input → Injection attacks
+
+Data in transit → Man-in-the-Middle
+
+Server → Misconfiguration
+
+Database → Unauthorized access
+
+5. Why Understanding These Is Important
+
+Helps identify security risks
+
+Reduces chances of cyber attacks
+
+Improves secure application design
+
+Prepares for real-world security testing
+
+Short Interview Version (1-Line Answers)
+
+CIA Triad: Confidentiality, Integrity, Availability
+
+Attack Types: Script kiddies, insiders, hacktivists, nation-state attackers
+
+Attack Surface: All points where an attacker can enter a system
