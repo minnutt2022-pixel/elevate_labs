@@ -1,1 +1,120 @@
+OS Security Checklist Document
+Objective
 
+The objective of this task is to understand operating system (OS) security by exploring user accounts, permissions, firewall settings, running services, and basic OS hardening practices to reduce the attack surface.
+
+1. Operating System Setup
+
+Installed a Linux Virtual Machine using VirtualBox
+(Alternatively, Windows OS security settings can also be used)
+
+Ensured the OS is updated with the latest security patches.
+
+2. User Accounts & Access Control
+
+Identified different user accounts available in the OS.
+
+Understood role-based access control:
+
+Administrator (root) user
+
+Standard (normal) user
+
+Limited administrative access only to trusted users.
+
+Followed the principle of least privilege (users get only required permissions).
+
+3. File Permissions in Linux
+
+Learned and practiced Linux file permission commands:
+
+ls -l → Used to view file permissions
+
+chmod → Used to change file permissions
+
+chown → Used to change file ownership
+
+Permission Types
+
+Read (r) – view file contents
+
+Write (w) – modify file
+
+Execute (x) – run file
+
+Permission Levels
+
+Owner
+
+Group
+
+Others
+
+4. Administrator vs Standard User
+
+Administrator (root):
+
+Full system access
+
+Can install software and modify system files
+
+Standard User:
+
+Limited access
+
+Cannot make critical system changes
+
+✔ Using standard users for daily activities improves security.
+
+5. Firewall Configuration
+
+Enabled UFW (Uncomplicated Firewall) in Linux
+(or Windows Defender Firewall in Windows)
+
+Firewall Benefits
+
+Blocks unauthorized network access
+
+Allows only trusted ports and services
+
+Protects the system from network-based attacks
+
+6. Running Processes & Services
+
+Identified running processes using system monitoring tools.
+
+Checked active services running in the background.
+
+Why this is important
+
+Some services may run unnecessarily
+
+Unused services increase attack surface
+
+7. Disabling Unnecessary Services
+
+Identified services not required for system functionality.
+
+Disabled unused or insecure services.
+
+Reduced exposure to potential exploits.
+
+✔ Fewer services = smaller attack surface.
+
+8. OS Hardening Best Practices
+
+Keep OS and software updated
+
+Use strong passwords
+
+Disable unused ports and services
+
+Enable firewall
+
+Use antivirus/anti-malware tools
+
+Regularly review user permissions
+
+Avoid running applications as root/admin
+
+Enable logging and monitoring
