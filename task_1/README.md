@@ -1,62 +1,28 @@
-Cyber Security Internship – Task 1
-Task Title
+# Task 1 - Cyber Security Basics & Attack Surface
 
-Understanding Cyber Security Basics & Attack Surface
+## Objective
+The objective of this task is to understand the basic concepts of cyber security, including the CIA Triad, common types of attackers, and different attack surfaces used in real-world systems.
 
-Description
+## What I Did
+- Researched the CIA Triad: Confidentiality, Integrity, and Availability.
+- Studied different types of cyber attackers such as script kiddies, insiders, hacktivists, and nation-state attackers.
+- Learned about common attack surfaces including web applications, mobile apps, APIs, networks, and cloud infrastructure.
+- Reviewed OWASP Top 10 vulnerabilities to understand major web security risks.
+- Mapped daily-used applications to possible attack surfaces.
+- Understood basic data flow from user to application, server, and database.
+- Identified possible attack points in the data flow.
 
-This task focuses on building a strong foundation in cyber security concepts. The objective was to understand core security principles, common attackers, and how systems are exposed to threats through different attack surfaces.
+## Key Learnings
+- Importance of protecting data using CIA Triad principles.
+- Understanding how attackers target systems.
+- Identifying where attacks can occur in applications.
+- Gaining awareness of common web application vulnerabilities.
 
-What I Did
+## Tools & Resources Used
+- Web Browser (Chrome)
+- OWASP Official Website
+- Online cyber security blogs and articles
 
-Studied the CIA Triad:
+## Outcome
+This task helped me build a strong foundation in cyber security concepts and improved my understanding of threats, vulnerabilities, and attack surfaces.
 
-Confidentiality
-
-Integrity
-
-Availability
-
-Learned about types of cyber attackers:
-
-Script kiddies
-
-Insiders
-
-Hacktivists
-
-Nation-state attackers
-
-Explored the concept of attack surfaces:
-
-Web applications
-
-Mobile applications
-
-APIs
-
-Networks
-
-Cloud infrastructure
-
-Understood how data flows in applications:
-
-User → Application → Server → Database
-
-Identified possible attack points in this data flow.
-
-Learned the importance of OWASP Top 10 vulnerabilities in web security.
-
-Outcome
-
-This task helped me understand:
-
-Basic cyber security principles
-
-How attacks happen in real systems
-
-Where vulnerabilities usually exist
-
-How applications can be targeted by attackers
-
-It built a strong conceptual foundation for further learning in cyber security and ethical hacking.
