@@ -1,0 +1,113 @@
+Packet Capture & Network Traffic Analysis Report
+Objective
+
+The objective of this task is to understand basic networking concepts and analyze live network traffic using Wireshark. This includes capturing packets, applying filters, observing TCP handshakes, identifying encrypted and unencrypted traffic, and analyzing DNS queries.
+
+1. Basic Networking Concepts
+IP Address
+
+An IP address uniquely identifies a device on a network.
+Example: 192.168.1.1
+
+MAC Address
+
+A MAC address is a physical address assigned to a network interface card.
+Example: 00:1A:2B:3C:4D:5E
+
+DNS (Domain Name System)
+
+DNS converts domain names (like google.com) into IP addresses.
+
+TCP (Transmission Control Protocol)
+
+Reliable, connection-oriented protocol
+
+Used for web browsing, email, file transfer
+
+UDP (User Datagram Protocol)
+
+Faster but unreliable
+
+Used for video streaming, DNS, online games
+
+2. Installing Wireshark & Capturing Traffic
+
+Installed Wireshark on the system.
+
+Selected the active network interface (Wi-Fi/Ethernet).
+
+Started live packet capture.
+
+Generated traffic by browsing websites.
+
+3. Filtering Packets by Protocol
+
+Used Wireshark display filters to analyze specific traffic:
+
+http → Shows HTTP traffic
+
+dns → Shows DNS queries and responses
+
+tcp → Shows TCP packets
+
+Filtering helps focus on specific protocols and makes analysis easier.
+
+4. Observing TCP Three-Way Handshake
+
+The TCP connection setup involves three steps:
+
+SYN – Client requests connection
+
+SYN-ACK – Server acknowledges request
+
+ACK – Client confirms connection
+
+This handshake ensures reliable communication between client and server.
+
+5. Plain-Text vs Encrypted Traffic
+
+Plain-text traffic:
+
+Example: HTTP
+
+Data can be read directly in packet details
+
+Encrypted traffic:
+
+Example: HTTPS (TLS)
+
+Data is unreadable and protected
+
+✔ Encryption protects sensitive information like passwords.
+
+6. DNS Query Analysis
+
+Captured DNS packets using dns filter.
+
+Observed domain name requests and their corresponding IP addresses.
+
+Understood how DNS resolves domain names before a connection is made.
+
+Example:
+
+Query: www.google.com
+
+Response: IP address of Google server
+
+7. Saving Packet Capture Files
+
+Saved the captured traffic as a .pcap file.
+
+Packet capture files can be reopened later for further analysis or reporting.
+
+8. Observations
+
+Network traffic contains different protocols working together.
+
+TCP ensures reliable communication.
+
+DNS is essential for resolving website names.
+
+Encrypted traffic is safer than plain-text traffic.
+
+Wireshark is a powerful tool for network monitoring and analysis.
