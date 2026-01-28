@@ -1,0 +1,111 @@
+Database Security Understanding Report
+Objective
+
+The objective of this task is to understand database security risks by identifying injectable parameters, performing SQL injection testing using SQLMap, analyzing the impact of database attacks, and suggesting appropriate security fixes.
+
+1. Identifying Injectable Parameters
+
+Analyzed the web application to identify input fields such as:
+
+Login forms
+
+URL parameters
+
+Search boxes
+
+Observed parameters that accept user input without proper validation.
+
+Identified potential SQL injection points where malicious SQL queries could be injected.
+
+2. Running SQLMap
+
+Used SQLMap, an automated SQL injection testing tool.
+
+Provided the vulnerable URL or request to SQLMap.
+
+Allowed SQLMap to test parameters for SQL injection vulnerabilities.
+
+✔ SQLMap helps automate database exploitation for testing purposes.
+
+3. Extracting Database Names
+
+Once injection was confirmed, SQLMap was used to enumerate databases.
+
+Retrieved the list of available databases on the server.
+
+This indicates improper access control at the database level.
+
+4. Extracting Tables
+
+Selected a target database.
+
+Extracted table names from the database.
+
+Tables such as users, credentials, or sensitive data were identified.
+
+5. Extracting User Data
+
+Extracted data from vulnerable tables.
+
+Sensitive information such as usernames and passwords was accessible.
+
+Demonstrated the risk of data exposure through SQL injection.
+
+6. Impact Analysis
+
+Unauthorized access to confidential data
+
+Data leakage and privacy violation
+
+Possible data modification or deletion
+
+Complete database compromise
+
+Loss of trust and legal consequences
+
+7. Attack Flow Documentation
+
+Identify input parameter
+
+Test parameter for SQL injection
+
+Confirm vulnerability
+
+Enumerate databases
+
+Extract tables
+
+Dump sensitive data
+
+This flow shows how a small vulnerability can lead to full database compromise.
+
+8. Suggested Fixes (Mitigations)
+Application-Level Fixes
+
+Use prepared statements (parameterized queries)
+
+Validate and sanitize all user input
+
+Implement proper error handling
+
+Avoid displaying database errors
+
+Database-Level Fixes
+
+Apply least privilege to database users
+
+Disable unnecessary database permissions
+
+Regularly update database software
+
+Security Controls
+
+Use Web Application Firewall (WAF)
+
+Perform regular security testing
+
+Follow secure coding standards
+
+Conclusion
+
+This task helped in understanding how database vulnerabilities can be exploited using SQL injection tools like SQLMap. Proper input validation, secure coding practices, and strong access controls are essential to protect databases from attacks.
