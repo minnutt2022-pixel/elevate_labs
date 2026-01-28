@@ -1,0 +1,92 @@
+Cryptography Experiment Report
+Objective
+
+The objective of this experiment is to understand basic cryptography concepts, including encryption types, hashing, digital signatures, and real-world applications of cryptography.
+
+1. Symmetric vs Asymmetric Encryption
+Symmetric Encryption
+
+Uses one shared key for encryption and decryption.
+
+Fast and efficient.
+
+Suitable for large data.
+
+Example: AES
+
+Asymmetric Encryption
+
+Uses two keys: public key and private key.
+
+Public key encrypts, private key decrypts.
+
+Slower than symmetric encryption.
+
+Example: RSA
+
+2. File Encryption Using AES
+
+Files were encrypted using the AES algorithm.
+
+AES provides strong security and fast performance.
+
+Same secret key is required for decryption.
+
+ AES is widely used for data protection.
+
+3. RSA Key Generation
+
+Generated an RSA key pair:
+
+Public Key – shared with others
+
+Private Key – kept secret
+
+RSA is mainly used for secure key exchange.
+
+4. Digital Signatures
+
+Digital signatures verify authenticity and integrity of data.
+
+Created using a private key.
+
+Verified using a public key.
+
+Ensures the data is not altered and confirms sender identity.
+
+5. Hashing & Integrity Verification
+
+Files were hashed using cryptographic hash functions.
+
+Hash values change even if a single bit of data changes.
+
+Hashing ensures data integrity.
+
+6. Comparison of Encryption Algorithms
+Algorithm	Type	Speed	Usage
+AES	Symmetric	Fast	File encryption
+RSA	Asymmetric	Slow	Key exchange
+Hashing	One-way	Very fast	Integrity check
+7. Real-World Applications
+
+HTTPS: Uses encryption to secure web traffic.
+
+VPN: Encrypts network communication.
+
+Email Security: Protects sensitive messages.
+
+Digital Certificates: Use RSA and signatures.
+
+8. Findings & Observations
+
+Symmetric encryption is faster for large data.
+
+Asymmetric encryption is useful for secure key sharing.
+
+Hashing is essential for integrity checks.
+
+Digital signatures add trust and authenticity.
+
+Conclusion
+
+This experiment helped me understand how cryptographic techniques protect data confidentiality, integrity, and authenticity. Cryptography plays a critical role in securing modern digital communication.
