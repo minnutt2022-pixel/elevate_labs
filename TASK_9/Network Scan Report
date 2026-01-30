@@ -1,0 +1,82 @@
+Network Scan Report
+Objective
+
+The objective of this task is to scan a local network, identify open ports and running services, detect operating systems, analyze potential vulnerabilities, and document the associated security risks.
+
+1. Local Network Scanning
+
+Performed a scan on the local network to identify active hosts.
+
+Identified devices connected to the same network.
+
+This helps understand the network environment.
+
+2. Identifying Open Ports
+
+Scanned target systems to identify open ports.
+
+Open ports indicate services that are accessible over the network.
+
+Common open ports include:
+
+Port 80 (HTTP)
+
+Port 443 (HTTPS)
+
+Port 22 (SSH)
+
+3. Detecting Services
+
+Identified services running on open ports.
+
+Service detection helps understand what applications are exposed.
+
+Example:
+
+SSH service on port 22
+
+Web server on port 80
+
+4. Operating System Identification
+
+Used OS detection techniques to identify the operating system of target systems.
+
+OS detection helps attackers and defenders understand system behavior.
+
+Identified OS types such as Windows or Linux.
+
+5. Vulnerability Analysis
+
+Analyzed identified services for known vulnerabilities.
+
+Outdated services were flagged as high risk.
+
+Open and unnecessary services increase attack surface.
+
+6. Saving Scan Results
+
+Saved network scan results for documentation and future reference.
+
+Reports can be used for audits and security reviews.
+
+7. Risk Interpretation
+
+Open ports increase exposure to attacks.
+
+Unpatched services may contain known exploits.
+
+Misconfigured systems pose high security risks.
+
+8. Findings Summary
+
+Multiple devices detected on the network.
+
+Several open ports exposing services.
+
+Some services require hardening or closure.
+
+Regular scanning is necessary for network security.
+
+Conclusion
+
+This network scan helped identify exposed services and potential vulnerabilities. Regular network scanning and proper service configuration are essential to reduce security risks and protect network infrastructure.
