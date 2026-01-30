@@ -1,0 +1,100 @@
+Firewall Rules Documentation
+Objective
+
+The objective of this task is to understand firewall concepts, configure firewall rules, test network connectivity, analyze firewall logs, and document the security impact of firewall rules.
+
+1. Firewall Concepts
+
+A firewall is a security control that monitors and filters incoming and outgoing network traffic based on predefined rules.
+
+Types of Firewalls
+
+Host-based firewall (UFW, Windows Firewall)
+
+Network firewall
+
+Purpose
+
+Prevent unauthorized access
+
+Allow trusted traffic
+
+Reduce attack surface
+
+2. Firewall Rule Configuration
+
+Configured firewall rules to control network traffic.
+
+Defined rules based on:
+
+Port number
+
+Protocol (TCP/UDP)
+
+Source IP
+
+✔ Rules decide whether traffic is allowed or denied.
+
+3. Allowing and Denying Ports
+
+Allowed essential ports:
+
+Port 22 (SSH)
+
+Port 80 (HTTP)
+
+Port 443 (HTTPS)
+
+Blocked unused or risky ports.
+
+Ensured only required services are accessible.
+
+4. Connectivity Testing
+
+Tested allowed ports to confirm successful connections.
+
+Verified blocked ports were inaccessible.
+
+Ensured firewall rules worked as expected.
+
+5. Log Observation
+
+Reviewed firewall logs to monitor traffic.
+
+Observed allowed and blocked connection attempts.
+
+Logs help detect suspicious activity.
+
+6. Blocking Malicious IP Addresses
+
+Identified suspicious or malicious IP addresses.
+
+Added firewall rules to block those IPs.
+
+Prevented repeated unauthorized access attempts.
+
+7. Firewall Rules Documentation
+
+Documented all firewall rules including:
+
+Allowed ports and services
+
+Blocked ports
+
+Blocked IP addresses
+
+Logging settings
+
+8. Impact Analysis
+
+Reduced network attack surface
+
+Prevented unauthorized access
+
+Improved system security
+
+Enhanced monitoring through logs
+
+Conclusion
+
+This task helped me understand firewall concepts and practical rule configuration. Proper firewall rules play a critical role in protecting systems from network-based attacks and improving overall security posture.
